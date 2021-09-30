@@ -61,10 +61,10 @@ export class PaginaComponent implements OnInit {
   esconder(): void{
     if (this.show){
       this.show = false;
-      this.labelIMG = "Esconder";
+      this.labelIMG = "Mostrar";
     }else {
       this.show = true;
-      this.labelIMG = "Mostrar";
+      this.labelIMG = "Esconder";
     }
   }
 
